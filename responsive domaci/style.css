@@ -1,0 +1,60 @@
+div {
+     background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    height: 450px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+    max-width: 100%;
+   }
+
+  aside{
+
+    text-align: justify;
+    margin: 0px auto;
+    width: 60%;
+    border: 1px solid grey;
+    background-color: white;
+      padding: 50px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+    position: relative;
+    margin-top: -50px;
+    max-width: 100%
+    margin:auto;
+    }
+
+    aside h1{
+
+      font-size: 30px;
+      font-family: "Times New Roman", Georgia, Serif;
+      margin-top: 15px;
+    }
+
+    aside p{
+      font-size: 17px;
+      font-family:  "Times New Roman", Georgia, Serif;
+    }
+    
+
+div{
+   background-image: url("bg.jpg");
+}
+
+@media only screen and (max-width: 500px){
+
+   div{
+      background-image: url("bg.jpg");
+   }
+
+   @media screen and (min-width: 480px) {
+    body {
+        background-color: #242424;
+    }
+
+
+
+
+
+ 
